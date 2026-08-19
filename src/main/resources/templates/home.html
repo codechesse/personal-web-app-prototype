@@ -7,4 +7,13 @@
         <h1>Welcome!</h1>
         <p>Click <a th:href="@{/hello}">here</a> for the hello page.</p>
     </body>
+    
+    <body>
+        <h1> Watch some 
+            <a th:target="_blank" th:href="@{https://www.youtube.com}">
+                Youtube
+                <img src="new-tab.svg" alt="Opens in new tab" width="14" />
+            </a>
+        </h1>
+    </body>
 </html>
